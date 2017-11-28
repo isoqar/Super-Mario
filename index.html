@@ -102,9 +102,9 @@ body {
 			game.camera.follow(player);
 
 			cursors = game.input.keyboard.createCursorKeys();
-			scoreText = game.add.text(16, 16, 'score: 0', { fontSize: '16px', fill: '#000' });
+			scoreText = game.add.text(16, 16, 'score: 0', {font: '24px Verdana', fill: '#FF8000'});
 		        scoreText.fixedToCamera = true;
-                        lifeText = game.add.text(16, 30, 'life: 2', { fontSize: '16px', fill: '#000' });
+                        lifeText = game.add.text(16, 30, 'life: 2', {font: '16px Verdana', fill: '#FF8000'});
 		        lifeText.fixedToCamera = true;
 		}
 
